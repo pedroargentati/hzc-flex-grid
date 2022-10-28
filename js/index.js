@@ -1,4 +1,6 @@
-const buttonMenu = documento.querySelector(".cabecalho__menu")
+const buttonMenu = document.querySelector(".cabecalho__menu")
 const menu = document.querySelector(".menu-lateral")
 
-function toggleMenu() {}
+buttonMenu.addEventListener('click', () => {
+    menu.classList.toggle('menu-lateral--ativo')
+})
