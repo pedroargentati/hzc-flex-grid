@@ -86,7 +86,7 @@ body {
 
     .cabecalho__perfil::after {
         content: "\e90d";
-        color: ##FFFFFF;
+        color: #FFFFFF;
         font-size: 1.5rem;
     }
 }
